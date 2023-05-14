@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.input-text__search {
+	outline: none;
+	border: none;
+	background-color: inherit;
+	border-bottom: white 1px solid;
+	height: 1.5rem;
+	width: 20rem;
+	color: white;
+}
+
+.container {
+	max-width: 1920px;
+	margin: auto;
+	background-color: #c7c7c7;
+}
+
+.nav-bar {
+	background-color: #333;
+	display: flex;
+	font-size: 0.85rem;
+	font-weight: 300;
+	align-items: center;
+	height: 3.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	justify-content: space-between;
+}
+
+.nav-bar > div {
+	color: white;
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.nav-bar > div:nth-child(3) {
+	gap: 2rem;
+}
+
+.cta-button {
+	background-color: rgb(46, 236, 46);
+	padding: 6px 8px;
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+input::placeholder {
+	font-size: 12px;
+	font-weight: 100;
+}
+
+.max-h-75 {
+	max-height: 75%;
+}
+
+.font-semibold {
+	font-weight: 500;
+}
+
+.footer-info {
+	display: grid;
+	grid-template-columns: 20fr 20fr 20fr 40fr;
+	border-top: rgb(176, 176, 176) 1px solid;
+	background-color: #e3e2e2;
+	gap: 4rem;
+}
+
+.footer-info__item:not(.cta-card) {
+	margin: 2.5rem 1rem;
+	color: rgb(43, 43, 43);
+}
+
+.cta-card {
+	padding: 2rem 1rem;
+	background-color: rgb(19, 19, 19);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.cta-card__title {
+	font-size: 2.5rem;
+	line-height: 1.5;
+	color: white;
+}
+
+.cta-card .poin {
+	margin-left: 0.5rem;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.5;
+	color: white;
+	display: inline;
+}
+
+.footer-info h4 {
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+
+.footer-info p {
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+footer {
+	padding: 1rem 2rem;
+	background-color: #333;
+}
+
+footer > div {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+footer img {
+	display: block;
+	max-height: 2rem;
+	margin: 0.8rem auto;
+}
+
+footer p {
+	display: block;
+	color: white;
+	font-weight: 400;
+	font-size: 0.9rem;
+}
+
+.button-full {
+	display: block;
+	text-align: center;
+}
